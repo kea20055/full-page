@@ -1,0 +1,348 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif; 
+}
+.first_container{
+	background: url(imagenes/food.png);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 100%;
+	height: 100vh;
+}
+.title{
+	font-weight: 600;
+	padding: 0 0 0 60px;
+	position: relative;
+	top: 25px;
+}
+.span2{
+	color: #FF0155;
+}
+header{
+	width: 100%;
+}
+nav{
+	width: 100%;
+	background: none;
+	color: #fff;
+}
+ul{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 20px;
+	padding: 0 80px 0 80px;
+}
+li{
+	margin: 15px;
+	cursor: pointer;
+}
+li:hover{
+	text-decoration: underline;
+	color: #FF0155;
+	transition: 0.6s;
+}
+.div_container{
+	color: #fff;
+	width: 70%;
+	text-align: center;
+	position: relative;
+	left: 15%;
+	top: 25%;
+}
+.title_2{
+	font-size: 4em
+}
+.paragraph{
+	width: 80%;
+	position: relative;
+	left: 10%;
+
+}
+.button{
+	text-align: center;
+	width: 140px;
+	height: 35px;
+	padding: 5px 20px 5px 20px;
+	margin-top: 15px;
+	color: #fff;
+	background: #FF0155;
+	border: none;
+	outline: none;
+	font-size: .9em;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.button:hover{
+	opacity: 0.7;
+	width: 170px;
+}
+/*---------------------segunda seccion---------------------*/
+
+.second_container{
+	padding: 5% 5% 0 7%; 
+	width: 100%;
+	height: 100vh;
+}
+.title_s2{
+	font-weight: 300;
+}
+.span{
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #FF0155;
+}
+.image2{
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+	position: relative;
+	bottom: 35px;
+	left: 5%;
+}
+.div_2{
+	display: flex;
+}
+.one-text{
+	width: 60%;
+}
+.two-text{
+	width: 55%;
+	position: absolute;
+	bottom: -67%;
+}
+/*--------------------tercera seccion---------------------*/
+
+.three_container{
+	width: 90%;
+	height: 145vh;
+	flex-wrap: wrap;
+}
+.title_3{
+	text-align: center;
+	font-weight: 300;
+}
+.span3{
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #FF0155;
+}
+.paragraph2{
+	text-align: center;
+}
+.image3, .image4, .image5, .image6, .image7, .image8{
+	width: 280px;
+	height: 250px;
+	object-fit: cover;
+}
+.imgs{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px;
+	position: relative;
+	left: 13%;
+}
+.s1, .s2, .s3, .s4, .s5, .s6{
+	background: #CECCCC;
+	width: 270px;
+	height: 290px;
+	position: relative;
+	margin: 0 30px 30px 20px;
+}
+.button2{
+	text-align: center;
+	width: 140px;
+	height: 45px;
+	padding: 5px 20px 5px 20px;
+	margin-top: 15px;
+	color: #fff;
+	background: #FF0155;
+	border: none;
+	outline: none;
+	font-size: .9em;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.5s;
+	position: relative;
+	left: 50%;
+}
+.button2:hover{
+	opacity: 0.7;
+	width: 170px;
+}
+/*--------------------cuarta seccion-----------------------*/
+
+.four_container{
+	width: 100%;
+	height: 100vh;
+}
+.cont{
+	text-align: center;
+}
+.title_4{
+	font-weight: 300;
+}
+.span4{
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #FF0155;
+}
+.imag{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	justify-content: center;
+}
+.imgn1, .imgn2, .imgn3, .imgn4{
+	width: 300px;
+	height: 500px;
+	object-fit: cover;
+	margin: 10px;
+	transition: 0.5s;
+}
+.imgn1:hover, .imgn2:hover, .imgn3:hover, .imgn4:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*-----------------------quinta seccion---------------------------*/
+
+.five_container{
+	width: 100%;
+	height: 100vh;
+	background: url(imagenes/food_2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	color: #fff;
+}
+.client1-img, .client2-img, .client3-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	object-fit: cover;
+	transition: 0.5s;
+}
+.client1-img:hover, .client2-img:hover, .client3-img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+.cont2{
+	text-align: center;
+}
+.title5{
+	font-weight: 300;
+}
+.span5{
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #FF0155;
+}
+.container-client{
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	top: 3%;
+}
+.client1, .client2, .client3{
+	width: 24%;
+	height: 460px;
+	margin: 3%;
+	background: #343D47;
+	text-align: center;
+	padding: 40px 30px 25px 30px;
+	color: #fff;
+	border-radius: 3px;
+}
+.foot-page1, .foot-page2, .foot-page3{
+	position: relative;
+	top: 20px;
+	color: #FF0155;
+	cursor: pointer;
+	font-weight: 300;
+}
+.foot-page1:hover, .foot-page2:hover, .foot-page3:hover{
+	text-decoration: underline;
+	transition: 0.5s;
+}
+/*------------------------------sexta seccion-----------------------------*/
+
+.six_container{
+	width: 100%;
+	height: 100%;
+	margin-top: 5%;
+	padding: 0 5% 0 5%;
+}
+.image-form{
+	width: 500px;
+}
+.cont3{
+	text-align: center;
+}
+.span6{
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #FF0155;
+}
+.paragraph7{
+	font-weight: 300;
+}
+.img-content-form{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	bottom: 350px;
+}
+.form{
+	width: 600px;
+	height: 500px;
+	padding: 15px;
+	background: #EBEBEB;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	left: 25%;
+}
+.input1, .input2{
+	width: 500px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	margin-top: 15px;
+	font-size: 1em;
+}
+textarea{
+	min-width: 500px;
+	max-width: 500px;
+	min-height: 200px;
+	max-height: 200px;
+	margin-top: 20px;
+	border: none;
+	outline: none;
+	font-family: 'Poppins', sans-serif; 
+	padding: 5px 15px 80px 15px;
+}
+.button3{
+	position: absolute;
+	bottom: 35px;
+	left: 40%;
+	padding: 15px;
+	border: none;
+	outline: none;
+	width: 150px;
+	background: #FF0155;
+	color: #fff;
+}
+.button3:hover{
+	opacity: 0.7;
+	transition: 0.5s;
+	cursor: pointer;
+}
